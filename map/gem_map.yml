@@ -1,0 +1,11 @@
+---
+module:
+  name: "ngSanitize"
+uis:
+  - name: $sanitize
+    type: service
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
